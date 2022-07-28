@@ -18,7 +18,7 @@ class WebViewController: UIViewController {
     //http -> 차단
     override func viewDidLoad() {
         super.viewDidLoad()
-
+  
         openWebPage(url: destinationURL)
         searchBar.delegate = self //델리게이트 연결이 정확하지 않으면 검색한 웹뷰가 나오지않음
     }
