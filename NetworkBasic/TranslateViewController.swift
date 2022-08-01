@@ -27,6 +27,11 @@ class TranslateViewController: UIViewController {
         userInputTextView.text = textViewPlaceholderText
         userInputTextView.textColor = .lightGray
         
+        //name: 페밀리 네임이 아니라 파일명으로 갖고오기
+        //***********************************
+        //폰트 적용 폰트 적용 폰트 적용 폰트 적용 폰트 적용 폰트 적용 폰트 적용
+        userInputTextView.font = UIFont(name: "Galmuri11-Regular", size: 17)
+        
     }
 }
 

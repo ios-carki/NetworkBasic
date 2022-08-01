@@ -1,0 +1,54 @@
+[Galmuri11-Regular]
+
+  f = 3, 1, 0x0409,Galmuri11
+  f = 1, 0,      0,Galmuri11
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,Galmuri11 Regular
+  m = 1, 0,      0,Galmuri11 Regular
+
+[Galmuri11-Bold]
+
+  f = 3, 1, 0x0409,Galmuri11
+  f = 1, 0,      0,Galmuri11
+
+  s = 3, 1, 0x0409,Bold
+  s = 1, 0,      0,Bold
+
+  l = 3, 1, 0x0409,Galmuri11 Bold
+  m = 1, 0,      0,Galmuri11 Bold
+
+[Galmuri11-Condensed]
+
+  f = 3, 1, 0x0409,Galmuri11
+  f = 1, 0,      0,Galmuri11
+
+  s = 3, 1, 0x0409,Condensed
+  s = 1, 0,      0,Condensed
+
+  l = 3, 1, 0x0409,Galmuri11 Condensed
+  m = 1, 0,      0,Galmuri11 Condensed
+
+[Galmuri9-Regular]
+
+  f = 3, 1, 0x0409,Galmuri9
+  f = 1, 0,      0,Galmuri9
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,Galmuri9 Regular
+  m = 1, 0,      0,Galmuri9 Regular
+
+[Galmuri7-Regular]
+
+  f = 3, 1, 0x0409,Galmuri7
+  f = 1, 0,      0,Galmuri7
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,Galmuri7 Regular
+  m = 1, 0,      0,Galmuri7 Regular

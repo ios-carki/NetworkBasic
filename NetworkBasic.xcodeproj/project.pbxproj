@@ -16,10 +16,97 @@
 		C3268B502890E1FA00C4D6E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3268B4F2890E1FA00C4D6E5 /* SearchViewController.swift */; };
 		C3268B532890E4CE00C4D6E5 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3268B512890E4CE00C4D6E5 /* ListTableViewCell.swift */; };
 		C3268B542890E4CE00C4D6E5 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3268B522890E4CE00C4D6E5 /* ListTableViewCell.xib */; };
+		C35FC70F28935D710037F07C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FC70E28935D710037F07C /* LocationViewController.swift */; };
+		C35FC71128935F480037F07C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FC71028935F480037F07C /* NotificationViewController.swift */; };
+		C35FC76D289384D80037F07C /* .npmignore in Resources */ = {isa = PBXBuildFile; fileRef = C35FC716289384D80037F07C /* .npmignore */; };
+		C35FC76E289384D80037F07C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C35FC717289384D80037F07C /* index.html */; };
+		C35FC76F289384D80037F07C /* Galmuri11.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C35FC719289384D80037F07C /* Galmuri11.woff2 */; };
+		C35FC770289384D80037F07C /* Galmuri7.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C35FC71A289384D80037F07C /* Galmuri7.woff2 */; };
+		C35FC771289384D80037F07C /* Galmuri11-Condensed.bdf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC71B289384D80037F07C /* Galmuri11-Condensed.bdf */; };
+		C35FC772289384D80037F07C /* galmuri.css in Resources */ = {isa = PBXBuildFile; fileRef = C35FC71C289384D80037F07C /* galmuri.css */; };
+		C35FC773289384D80037F07C /* Galmuri.ttc in Resources */ = {isa = PBXBuildFile; fileRef = C35FC71D289384D80037F07C /* Galmuri.ttc */; };
+		C35FC774289384D80037F07C /* Galmuri11-Bold.bdf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC71E289384D80037F07C /* Galmuri11-Bold.bdf */; };
+		C35FC775289384D80037F07C /* Galmuri11.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC71F289384D80037F07C /* Galmuri11.ttf */; };
+		C35FC776289384D80037F07C /* Galmuri7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC720289384D80037F07C /* Galmuri7.ttf */; };
+		C35FC777289384D80037F07C /* Galmuri9.bdf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC721289384D80037F07C /* Galmuri9.bdf */; };
+		C35FC778289384D80037F07C /* Galmuri11-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC722289384D80037F07C /* Galmuri11-Bold.ttf */; };
+		C35FC779289384D80037F07C /* Galmuri7.bdf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC723289384D80037F07C /* Galmuri7.bdf */; };
+		C35FC77A289384D80037F07C /* Galmuri9.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC724289384D80037F07C /* Galmuri9.ttf */; };
+		C35FC77B289384D80037F07C /* Galmuri11.bdf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC725289384D80037F07C /* Galmuri11.bdf */; };
+		C35FC77C289384D80037F07C /* Galmuri11-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C35FC726289384D80037F07C /* Galmuri11-Bold.woff2 */; };
+		C35FC77D289384D80037F07C /* Galmuri11-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35FC727289384D80037F07C /* Galmuri11-Condensed.ttf */; };
+		C35FC77E289384D80037F07C /* Galmuri9.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C35FC728289384D80037F07C /* Galmuri9.woff2 */; };
+		C35FC77F289384D80037F07C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = C35FC729289384D80037F07C /* LICENSE.txt */; };
+		C35FC780289384D80037F07C /* Galmuri11-Condensed.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C35FC72A289384D80037F07C /* Galmuri11-Condensed.woff2 */; };
+		C35FC781289384D80037F07C /* CNAME in Resources */ = {isa = PBXBuildFile; fileRef = C35FC72B289384D80037F07C /* CNAME */; };
+		C35FC782289384D80037F07C /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = C35FC72C289384D80037F07C /* .gitmodules */; };
+		C35FC783289384D80037F07C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C35FC72D289384D80037F07C /* README.md */; };
+		C35FC784289384D80037F07C /* en.html in Resources */ = {isa = PBXBuildFile; fileRef = C35FC72F289384D80037F07C /* en.html */; };
+		C35FC785289384D80037F07C /* glyphs.html in Resources */ = {isa = PBXBuildFile; fileRef = C35FC730289384D80037F07C /* glyphs.html */; };
+		C35FC786289384D80037F07C /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = C35FC731289384D80037F07C /* package-lock.json */; };
+		C35FC787289384D80037F07C /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = C35FC732289384D80037F07C /* package.json */; };
+		C35FC788289384D80037F07C /* OFL-ko.md in Resources */ = {isa = PBXBuildFile; fileRef = C35FC733289384D80037F07C /* OFL-ko.md */; };
+		C35FC789289384D80037F07C /* FUNDING.yml in Resources */ = {isa = PBXBuildFile; fileRef = C35FC735289384D80037F07C /* FUNDING.yml */; };
+		C35FC78A289384D80037F07C /* release.yml in Resources */ = {isa = PBXBuildFile; fileRef = C35FC737289384D80037F07C /* release.yml */; };
+		C35FC78B289384D80037F07C /* dependabot.yml in Resources */ = {isa = PBXBuildFile; fileRef = C35FC738289384D80037F07C /* dependabot.yml */; };
+		C35FC78C289384D80037F07C /* bitmap.ff in Resources */ = {isa = PBXBuildFile; fileRef = C35FC73A289384D80037F07C /* bitmap.ff */; };
+		C35FC78D289384D80037F07C /* toss.svg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC73B289384D80037F07C /* toss.svg */; };
+		C35FC78E289384D80037F07C /* g11.ini in Resources */ = {isa = PBXBuildFile; fileRef = C35FC73C289384D80037F07C /* g11.ini */; };
+		C35FC78F289384D80037F07C /* g11b.fea in Resources */ = {isa = PBXBuildFile; fileRef = C35FC73D289384D80037F07C /* g11b.fea */; };
+		C35FC790289384D80037F07C /* g11c.fea in Resources */ = {isa = PBXBuildFile; fileRef = C35FC73E289384D80037F07C /* g11c.fea */; };
+		C35FC791289384D80037F07C /* noonnu.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC73F289384D80037F07C /* noonnu.png */; };
+		C35FC792289384D80037F07C /* version.py in Resources */ = {isa = PBXBuildFile; fileRef = C35FC740289384D80037F07C /* version.py */; };
+		C35FC793289384D80037F07C /* g11.fea in Resources */ = {isa = PBXBuildFile; fileRef = C35FC741289384D80037F07C /* g11.fea */; };
+		C35FC794289384D80037F07C /* g11b.ini in Resources */ = {isa = PBXBuildFile; fileRef = C35FC742289384D80037F07C /* g11b.ini */; };
+		C35FC795289384D80037F07C /* g11c.ini in Resources */ = {isa = PBXBuildFile; fileRef = C35FC743289384D80037F07C /* g11c.ini */; };
+		C35FC796289384D80037F07C /* cover_light.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC744289384D80037F07C /* cover_light.png */; };
+		C35FC797289384D80037F07C /* g9.fea in Resources */ = {isa = PBXBuildFile; fileRef = C35FC745289384D80037F07C /* g9.fea */; };
+		C35FC798289384D80037F07C /* kakaopay.gif in Resources */ = {isa = PBXBuildFile; fileRef = C35FC746289384D80037F07C /* kakaopay.gif */; };
+		C35FC799289384D80037F07C /* worker.js in Resources */ = {isa = PBXBuildFile; fileRef = C35FC747289384D80037F07C /* worker.js */; };
+		C35FC79A289384D80037F07C /* bdf.js in Resources */ = {isa = PBXBuildFile; fileRef = C35FC748289384D80037F07C /* bdf.js */; };
+		C35FC79B289384D80037F07C /* fontforge.ff in Resources */ = {isa = PBXBuildFile; fileRef = C35FC749289384D80037F07C /* fontforge.ff */; };
+		C35FC79C289384D80037F07C /* galmuri.svg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC74A289384D80037F07C /* galmuri.svg */; };
+		C35FC79D289384D80037F07C /* g9.ini in Resources */ = {isa = PBXBuildFile; fileRef = C35FC74B289384D80037F07C /* g9.ini */; };
+		C35FC79E289384D80037F07C /* q.svg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC74C289384D80037F07C /* q.svg */; };
+		C35FC79F289384D80037F07C /* FontMenuNameDB in Resources */ = {isa = PBXBuildFile; fileRef = C35FC74D289384D80037F07C /* FontMenuNameDB */; };
+		C35FC7A0289384D80037F07C /* cover_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC74E289384D80037F07C /* cover_dark.png */; };
+		C35FC7A1289384D80037F07C /* g7.ini in Resources */ = {isa = PBXBuildFile; fileRef = C35FC74F289384D80037F07C /* g7.ini */; };
+		C35FC7A2289384D80037F07C /* AdobeBlank.woff in Resources */ = {isa = PBXBuildFile; fileRef = C35FC750289384D80037F07C /* AdobeBlank.woff */; };
+		C35FC7A3289384D80037F07C /* g7.fea in Resources */ = {isa = PBXBuildFile; fileRef = C35FC751289384D80037F07C /* g7.fea */; };
+		C35FC7A4289384D80037F07C /* kakaopay.svg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC752289384D80037F07C /* kakaopay.svg */; };
+		C35FC7A5289384D80037F07C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C35FC753289384D80037F07C /* style.css */; };
+		C35FC7A6289384D80037F07C /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC754289384D80037F07C /* cover.png */; };
+		C35FC7A7289384D80037F07C /* bgs.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC755289384D80037F07C /* bgs.png */; };
+		C35FC7A8289384D80037F07C /* sandoll.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC756289384D80037F07C /* sandoll.png */; };
+		C35FC7A9289384D80037F07C /* 210105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC758289384D80037F07C /* 210105.jpg */; };
+		C35FC7AA289384D80037F07C /* 201221.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC759289384D80037F07C /* 201221.jpg */; };
+		C35FC7AB289384D80037F07C /* 210302.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC75A289384D80037F07C /* 210302.jpg */; };
+		C35FC7AC289384D80037F07C /* 220507.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC75B289384D80037F07C /* 220507.png */; };
+		C35FC7AD289384D80037F07C /* 200223.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC75C289384D80037F07C /* 200223.png */; };
+		C35FC7AE289384D80037F07C /* 210223.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC75D289384D80037F07C /* 210223.jpg */; };
+		C35FC7AF289384D80037F07C /* 200622.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC75E289384D80037F07C /* 200622.jpg */; };
+		C35FC7B0289384D80037F07C /* 220621.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC75F289384D80037F07C /* 220621.jpg */; };
+		C35FC7B1289384D80037F07C /* 220220.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C35FC760289384D80037F07C /* 220220.jpg */; };
+		C35FC7B2289384D80037F07C /* donate.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC761289384D80037F07C /* donate.png */; };
+		C35FC7B3289384D80037F07C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C35FC762289384D80037F07C /* bg.png */; };
+		C35FC7B4289384D80037F07C /* toss.gif in Resources */ = {isa = PBXBuildFile; fileRef = C35FC763289384D80037F07C /* toss.gif */; };
+		C35FC7B5289384D80037F07C /* OFL.md in Resources */ = {isa = PBXBuildFile; fileRef = C35FC764289384D80037F07C /* OFL.md */; };
+		C35FC7B6289384D80037F07C /* THIRD-PARTY-LICENSES.txt in Resources */ = {isa = PBXBuildFile; fileRef = C35FC765289384D80037F07C /* THIRD-PARTY-LICENSES.txt */; };
+		C35FC7B7289384D80037F07C /* sponsors.md in Resources */ = {isa = PBXBuildFile; fileRef = C35FC766289384D80037F07C /* sponsors.md */; };
+		C35FC7B8289384D80037F07C /* Galmuri11.kbits in Resources */ = {isa = PBXBuildFile; fileRef = C35FC768289384D80037F07C /* Galmuri11.kbits */; };
+		C35FC7B9289384D80037F07C /* Galmuri7.kbits in Resources */ = {isa = PBXBuildFile; fileRef = C35FC769289384D80037F07C /* Galmuri7.kbits */; };
+		C35FC7BA289384D80037F07C /* Galmuri11-Bold.kbits in Resources */ = {isa = PBXBuildFile; fileRef = C35FC76A289384D80037F07C /* Galmuri11-Bold.kbits */; };
+		C35FC7BB289384D80037F07C /* Galmuri9.kbits in Resources */ = {isa = PBXBuildFile; fileRef = C35FC76B289384D80037F07C /* Galmuri9.kbits */; };
+		C35FC7BC289384D80037F07C /* Galmuri11-Condensed.kbits in Resources */ = {isa = PBXBuildFile; fileRef = C35FC76C289384D80037F07C /* Galmuri11-Condensed.kbits */; };
 		C371577128920CD7007C91A2 /* ViewPresentableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371577028920CD7007C91A2 /* ViewPresentableProtocol.swift */; };
 		C37157732892236D007C91A2 /* RottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157722892236D007C91A2 /* RottoViewController.swift */; };
 		C37157752892305B007C91A2 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157742892305B007C91A2 /* TranslateViewController.swift */; };
 		C371577728923A9B007C91A2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371577628923A9B007C91A2 /* WebViewController.swift */; };
+		C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */; };
+		C3F13120289757AA00D7B0F7 /* Cosntant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311F289757AA00D7B0F7 /* Cosntant.swift */; };
+		C3F1312228975FA400D7B0F7 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */; };
+		C3F1312528977CE500D7B0F7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C3F1312428977CE500D7B0F7 /* Alamofire */; };
+		C3F1312828977CFB00D7B0F7 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C3F1312728977CFB00D7B0F7 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +121,95 @@
 		C3268B4F2890E1FA00C4D6E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C3268B512890E4CE00C4D6E5 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		C3268B522890E4CE00C4D6E5 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		C35FC70E28935D710037F07C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		C35FC71028935F480037F07C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		C35FC716289384D80037F07C /* .npmignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .npmignore; sourceTree = "<group>"; };
+		C35FC717289384D80037F07C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C35FC719289384D80037F07C /* Galmuri11.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri11.woff2; sourceTree = "<group>"; };
+		C35FC71A289384D80037F07C /* Galmuri7.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri7.woff2; sourceTree = "<group>"; };
+		C35FC71B289384D80037F07C /* Galmuri11-Condensed.bdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Galmuri11-Condensed.bdf"; sourceTree = "<group>"; };
+		C35FC71C289384D80037F07C /* galmuri.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = galmuri.css; sourceTree = "<group>"; };
+		C35FC71D289384D80037F07C /* Galmuri.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri.ttc; sourceTree = "<group>"; };
+		C35FC71E289384D80037F07C /* Galmuri11-Bold.bdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Galmuri11-Bold.bdf"; sourceTree = "<group>"; };
+		C35FC71F289384D80037F07C /* Galmuri11.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri11.ttf; sourceTree = "<group>"; };
+		C35FC720289384D80037F07C /* Galmuri7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri7.ttf; sourceTree = "<group>"; };
+		C35FC721289384D80037F07C /* Galmuri9.bdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Galmuri9.bdf; sourceTree = "<group>"; };
+		C35FC722289384D80037F07C /* Galmuri11-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galmuri11-Bold.ttf"; sourceTree = "<group>"; };
+		C35FC723289384D80037F07C /* Galmuri7.bdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Galmuri7.bdf; sourceTree = "<group>"; };
+		C35FC724289384D80037F07C /* Galmuri9.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri9.ttf; sourceTree = "<group>"; };
+		C35FC725289384D80037F07C /* Galmuri11.bdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Galmuri11.bdf; sourceTree = "<group>"; };
+		C35FC726289384D80037F07C /* Galmuri11-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galmuri11-Bold.woff2"; sourceTree = "<group>"; };
+		C35FC727289384D80037F07C /* Galmuri11-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galmuri11-Condensed.ttf"; sourceTree = "<group>"; };
+		C35FC728289384D80037F07C /* Galmuri9.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri9.woff2; sourceTree = "<group>"; };
+		C35FC729289384D80037F07C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		C35FC72A289384D80037F07C /* Galmuri11-Condensed.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galmuri11-Condensed.woff2"; sourceTree = "<group>"; };
+		C35FC72B289384D80037F07C /* CNAME */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
+		C35FC72C289384D80037F07C /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		C35FC72D289384D80037F07C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C35FC72F289384D80037F07C /* en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = en.html; sourceTree = "<group>"; };
+		C35FC730289384D80037F07C /* glyphs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = glyphs.html; sourceTree = "<group>"; };
+		C35FC731289384D80037F07C /* package-lock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		C35FC732289384D80037F07C /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		C35FC733289384D80037F07C /* OFL-ko.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OFL-ko.md"; sourceTree = "<group>"; };
+		C35FC735289384D80037F07C /* FUNDING.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
+		C35FC737289384D80037F07C /* release.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = release.yml; sourceTree = "<group>"; };
+		C35FC738289384D80037F07C /* dependabot.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = dependabot.yml; sourceTree = "<group>"; };
+		C35FC73A289384D80037F07C /* bitmap.ff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmap.ff; sourceTree = "<group>"; };
+		C35FC73B289384D80037F07C /* toss.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = toss.svg; sourceTree = "<group>"; };
+		C35FC73C289384D80037F07C /* g11.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g11.ini; sourceTree = "<group>"; };
+		C35FC73D289384D80037F07C /* g11b.fea */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g11b.fea; sourceTree = "<group>"; };
+		C35FC73E289384D80037F07C /* g11c.fea */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g11c.fea; sourceTree = "<group>"; };
+		C35FC73F289384D80037F07C /* noonnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noonnu.png; sourceTree = "<group>"; };
+		C35FC740289384D80037F07C /* version.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = version.py; sourceTree = "<group>"; };
+		C35FC741289384D80037F07C /* g11.fea */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g11.fea; sourceTree = "<group>"; };
+		C35FC742289384D80037F07C /* g11b.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g11b.ini; sourceTree = "<group>"; };
+		C35FC743289384D80037F07C /* g11c.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g11c.ini; sourceTree = "<group>"; };
+		C35FC744289384D80037F07C /* cover_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_light.png; sourceTree = "<group>"; };
+		C35FC745289384D80037F07C /* g9.fea */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g9.fea; sourceTree = "<group>"; };
+		C35FC746289384D80037F07C /* kakaopay.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kakaopay.gif; sourceTree = "<group>"; };
+		C35FC747289384D80037F07C /* worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = worker.js; sourceTree = "<group>"; };
+		C35FC748289384D80037F07C /* bdf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bdf.js; sourceTree = "<group>"; };
+		C35FC749289384D80037F07C /* fontforge.ff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fontforge.ff; sourceTree = "<group>"; };
+		C35FC74A289384D80037F07C /* galmuri.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = galmuri.svg; sourceTree = "<group>"; };
+		C35FC74B289384D80037F07C /* g9.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g9.ini; sourceTree = "<group>"; };
+		C35FC74C289384D80037F07C /* q.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = q.svg; sourceTree = "<group>"; };
+		C35FC74D289384D80037F07C /* FontMenuNameDB */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FontMenuNameDB; sourceTree = "<group>"; };
+		C35FC74E289384D80037F07C /* cover_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_dark.png; sourceTree = "<group>"; };
+		C35FC74F289384D80037F07C /* g7.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g7.ini; sourceTree = "<group>"; };
+		C35FC750289384D80037F07C /* AdobeBlank.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdobeBlank.woff; sourceTree = "<group>"; };
+		C35FC751289384D80037F07C /* g7.fea */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = g7.fea; sourceTree = "<group>"; };
+		C35FC752289384D80037F07C /* kakaopay.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kakaopay.svg; sourceTree = "<group>"; };
+		C35FC753289384D80037F07C /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		C35FC754289384D80037F07C /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
+		C35FC755289384D80037F07C /* bgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgs.png; sourceTree = "<group>"; };
+		C35FC756289384D80037F07C /* sandoll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandoll.png; sourceTree = "<group>"; };
+		C35FC758289384D80037F07C /* 210105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210105.jpg; sourceTree = "<group>"; };
+		C35FC759289384D80037F07C /* 201221.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 201221.jpg; sourceTree = "<group>"; };
+		C35FC75A289384D80037F07C /* 210302.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210302.jpg; sourceTree = "<group>"; };
+		C35FC75B289384D80037F07C /* 220507.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 220507.png; sourceTree = "<group>"; };
+		C35FC75C289384D80037F07C /* 200223.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 200223.png; sourceTree = "<group>"; };
+		C35FC75D289384D80037F07C /* 210223.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210223.jpg; sourceTree = "<group>"; };
+		C35FC75E289384D80037F07C /* 200622.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 200622.jpg; sourceTree = "<group>"; };
+		C35FC75F289384D80037F07C /* 220621.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 220621.jpg; sourceTree = "<group>"; };
+		C35FC760289384D80037F07C /* 220220.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 220220.jpg; sourceTree = "<group>"; };
+		C35FC761289384D80037F07C /* donate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donate.png; sourceTree = "<group>"; };
+		C35FC762289384D80037F07C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C35FC763289384D80037F07C /* toss.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toss.gif; sourceTree = "<group>"; };
+		C35FC764289384D80037F07C /* OFL.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = OFL.md; sourceTree = "<group>"; };
+		C35FC765289384D80037F07C /* THIRD-PARTY-LICENSES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "THIRD-PARTY-LICENSES.txt"; sourceTree = "<group>"; };
+		C35FC766289384D80037F07C /* sponsors.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sponsors.md; sourceTree = "<group>"; };
+		C35FC768289384D80037F07C /* Galmuri11.kbits */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri11.kbits; sourceTree = "<group>"; };
+		C35FC769289384D80037F07C /* Galmuri7.kbits */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri7.kbits; sourceTree = "<group>"; };
+		C35FC76A289384D80037F07C /* Galmuri11-Bold.kbits */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galmuri11-Bold.kbits"; sourceTree = "<group>"; };
+		C35FC76B289384D80037F07C /* Galmuri9.kbits */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galmuri9.kbits; sourceTree = "<group>"; };
+		C35FC76C289384D80037F07C /* Galmuri11-Condensed.kbits */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galmuri11-Condensed.kbits"; sourceTree = "<group>"; };
 		C371577028920CD7007C91A2 /* ViewPresentableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentableProtocol.swift; sourceTree = "<group>"; };
 		C37157722892236D007C91A2 /* RottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottoViewController.swift; sourceTree = "<group>"; };
 		C37157742892305B007C91A2 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		C371577628923A9B007C91A2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		C3F1311F289757AA00D7B0F7 /* Cosntant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosntant.swift; sourceTree = "<group>"; };
+		C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +217,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F1312828977CFB00D7B0F7 /* SwiftyJSON in Frameworks */,
+				C3F1312528977CE500D7B0F7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +244,15 @@
 		C3268B3A2890DD7800C4D6E5 /* NetworkBasic */ = {
 			isa = PBXGroup;
 			children = (
+				C3F1311E2897577D00D7B0F7 /* Cosntant */,
+				C35FC714289384000037F07C /* Resource */,
+				C35FC71328935F600037F07C /* Location */,
+				C35FC71228935F540037F07C /* Notification */,
 				C371576F28920CA1007C91A2 /* Protocol */,
 				C3268B3B2890DD7800C4D6E5 /* AppDelegate.swift */,
 				C3268B3D2890DD7800C4D6E5 /* SceneDelegate.swift */,
 				C3268B3F2890DD7800C4D6E5 /* ViewController.swift */,
 				C3268B412890DD7800C4D6E5 /* Main.storyboard */,
-				C371577628923A9B007C91A2 /* WebViewController.swift */,
 				C371577828923AA0007C91A2 /* WebView */,
 				C37157742892305B007C91A2 /* TranslateViewController.swift */,
 				C37157722892236D007C91A2 /* RottoViewController.swift */,
@@ -89,10 +266,178 @@
 			path = NetworkBasic;
 			sourceTree = "<group>";
 		};
+		C35FC71228935F540037F07C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC71028935F480037F07C /* NotificationViewController.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C35FC71328935F600037F07C /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC70E28935D710037F07C /* LocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		C35FC714289384000037F07C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC715289384D80037F07C /* galmuri-2.32.4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C35FC715289384D80037F07C /* galmuri-2.32.4 */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC716289384D80037F07C /* .npmignore */,
+				C35FC717289384D80037F07C /* index.html */,
+				C35FC718289384D80037F07C /* dist */,
+				C35FC72B289384D80037F07C /* CNAME */,
+				C35FC72C289384D80037F07C /* .gitmodules */,
+				C35FC72D289384D80037F07C /* README.md */,
+				C35FC72E289384D80037F07C /* bitsnpicas */,
+				C35FC72F289384D80037F07C /* en.html */,
+				C35FC730289384D80037F07C /* glyphs.html */,
+				C35FC731289384D80037F07C /* package-lock.json */,
+				C35FC732289384D80037F07C /* package.json */,
+				C35FC733289384D80037F07C /* OFL-ko.md */,
+				C35FC734289384D80037F07C /* .github */,
+				C35FC739289384D80037F07C /* files */,
+				C35FC764289384D80037F07C /* OFL.md */,
+				C35FC765289384D80037F07C /* THIRD-PARTY-LICENSES.txt */,
+				C35FC766289384D80037F07C /* sponsors.md */,
+				C35FC767289384D80037F07C /* src */,
+			);
+			path = "galmuri-2.32.4";
+			sourceTree = "<group>";
+		};
+		C35FC718289384D80037F07C /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC719289384D80037F07C /* Galmuri11.woff2 */,
+				C35FC71A289384D80037F07C /* Galmuri7.woff2 */,
+				C35FC71B289384D80037F07C /* Galmuri11-Condensed.bdf */,
+				C35FC71C289384D80037F07C /* galmuri.css */,
+				C35FC71D289384D80037F07C /* Galmuri.ttc */,
+				C35FC71E289384D80037F07C /* Galmuri11-Bold.bdf */,
+				C35FC71F289384D80037F07C /* Galmuri11.ttf */,
+				C35FC720289384D80037F07C /* Galmuri7.ttf */,
+				C35FC721289384D80037F07C /* Galmuri9.bdf */,
+				C35FC722289384D80037F07C /* Galmuri11-Bold.ttf */,
+				C35FC723289384D80037F07C /* Galmuri7.bdf */,
+				C35FC724289384D80037F07C /* Galmuri9.ttf */,
+				C35FC725289384D80037F07C /* Galmuri11.bdf */,
+				C35FC726289384D80037F07C /* Galmuri11-Bold.woff2 */,
+				C35FC727289384D80037F07C /* Galmuri11-Condensed.ttf */,
+				C35FC728289384D80037F07C /* Galmuri9.woff2 */,
+				C35FC729289384D80037F07C /* LICENSE.txt */,
+				C35FC72A289384D80037F07C /* Galmuri11-Condensed.woff2 */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		C35FC72E289384D80037F07C /* bitsnpicas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bitsnpicas;
+			sourceTree = "<group>";
+		};
+		C35FC734289384D80037F07C /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC735289384D80037F07C /* FUNDING.yml */,
+				C35FC736289384D80037F07C /* workflows */,
+				C35FC738289384D80037F07C /* dependabot.yml */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		C35FC736289384D80037F07C /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC737289384D80037F07C /* release.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		C35FC739289384D80037F07C /* files */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC73A289384D80037F07C /* bitmap.ff */,
+				C35FC73B289384D80037F07C /* toss.svg */,
+				C35FC73C289384D80037F07C /* g11.ini */,
+				C35FC73D289384D80037F07C /* g11b.fea */,
+				C35FC73E289384D80037F07C /* g11c.fea */,
+				C35FC73F289384D80037F07C /* noonnu.png */,
+				C35FC740289384D80037F07C /* version.py */,
+				C35FC741289384D80037F07C /* g11.fea */,
+				C35FC742289384D80037F07C /* g11b.ini */,
+				C35FC743289384D80037F07C /* g11c.ini */,
+				C35FC744289384D80037F07C /* cover_light.png */,
+				C35FC745289384D80037F07C /* g9.fea */,
+				C35FC746289384D80037F07C /* kakaopay.gif */,
+				C35FC747289384D80037F07C /* worker.js */,
+				C35FC748289384D80037F07C /* bdf.js */,
+				C35FC749289384D80037F07C /* fontforge.ff */,
+				C35FC74A289384D80037F07C /* galmuri.svg */,
+				C35FC74B289384D80037F07C /* g9.ini */,
+				C35FC74C289384D80037F07C /* q.svg */,
+				C35FC74D289384D80037F07C /* FontMenuNameDB */,
+				C35FC74E289384D80037F07C /* cover_dark.png */,
+				C35FC74F289384D80037F07C /* g7.ini */,
+				C35FC750289384D80037F07C /* AdobeBlank.woff */,
+				C35FC751289384D80037F07C /* g7.fea */,
+				C35FC752289384D80037F07C /* kakaopay.svg */,
+				C35FC753289384D80037F07C /* style.css */,
+				C35FC754289384D80037F07C /* cover.png */,
+				C35FC755289384D80037F07C /* bgs.png */,
+				C35FC756289384D80037F07C /* sandoll.png */,
+				C35FC757289384D80037F07C /* showcase */,
+				C35FC761289384D80037F07C /* donate.png */,
+				C35FC762289384D80037F07C /* bg.png */,
+				C35FC763289384D80037F07C /* toss.gif */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		C35FC757289384D80037F07C /* showcase */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC758289384D80037F07C /* 210105.jpg */,
+				C35FC759289384D80037F07C /* 201221.jpg */,
+				C35FC75A289384D80037F07C /* 210302.jpg */,
+				C35FC75B289384D80037F07C /* 220507.png */,
+				C35FC75C289384D80037F07C /* 200223.png */,
+				C35FC75D289384D80037F07C /* 210223.jpg */,
+				C35FC75E289384D80037F07C /* 200622.jpg */,
+				C35FC75F289384D80037F07C /* 220621.jpg */,
+				C35FC760289384D80037F07C /* 220220.jpg */,
+			);
+			path = showcase;
+			sourceTree = "<group>";
+		};
+		C35FC767289384D80037F07C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C35FC768289384D80037F07C /* Galmuri11.kbits */,
+				C35FC769289384D80037F07C /* Galmuri7.kbits */,
+				C35FC76A289384D80037F07C /* Galmuri11-Bold.kbits */,
+				C35FC76B289384D80037F07C /* Galmuri9.kbits */,
+				C35FC76C289384D80037F07C /* Galmuri11-Condensed.kbits */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		C371576F28920CA1007C91A2 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
 				C371577028920CD7007C91A2 /* ViewPresentableProtocol.swift */,
+				C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -100,8 +445,18 @@
 		C371577828923AA0007C91A2 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				C371577628923A9B007C91A2 /* WebViewController.swift */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		C3F1311E2897577D00D7B0F7 /* Cosntant */ = {
+			isa = PBXGroup;
+			children = (
+				C3F1311F289757AA00D7B0F7 /* Cosntant.swift */,
+				C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */,
+			);
+			path = Cosntant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +475,10 @@
 			dependencies = (
 			);
 			name = NetworkBasic;
+			packageProductDependencies = (
+				C3F1312428977CE500D7B0F7 /* Alamofire */,
+				C3F1312728977CFB00D7B0F7 /* SwiftyJSON */,
+			);
 			productName = NetworkBasic;
 			productReference = C3268B382890DD7800C4D6E5 /* NetworkBasic.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +507,10 @@
 				Base,
 			);
 			mainGroup = C3268B2F2890DD7800C4D6E5;
+			packageReferences = (
+				C3F1312328977CE500D7B0F7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C3F1312628977CFB00D7B0F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = C3268B392890DD7800C4D6E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,10 +525,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35FC7AF289384D80037F07C /* 200622.jpg in Resources */,
+				C35FC793289384D80037F07C /* g11.fea in Resources */,
+				C35FC798289384D80037F07C /* kakaopay.gif in Resources */,
+				C35FC771289384D80037F07C /* Galmuri11-Condensed.bdf in Resources */,
+				C35FC799289384D80037F07C /* worker.js in Resources */,
+				C35FC792289384D80037F07C /* version.py in Resources */,
+				C35FC773289384D80037F07C /* Galmuri.ttc in Resources */,
+				C35FC7AB289384D80037F07C /* 210302.jpg in Resources */,
+				C35FC77E289384D80037F07C /* Galmuri9.woff2 in Resources */,
+				C35FC79D289384D80037F07C /* g9.ini in Resources */,
+				C35FC777289384D80037F07C /* Galmuri9.bdf in Resources */,
+				C35FC796289384D80037F07C /* cover_light.png in Resources */,
+				C35FC7B1289384D80037F07C /* 220220.jpg in Resources */,
+				C35FC78E289384D80037F07C /* g11.ini in Resources */,
+				C35FC785289384D80037F07C /* glyphs.html in Resources */,
+				C35FC7B6289384D80037F07C /* THIRD-PARTY-LICENSES.txt in Resources */,
+				C35FC770289384D80037F07C /* Galmuri7.woff2 in Resources */,
+				C35FC78A289384D80037F07C /* release.yml in Resources */,
+				C35FC7A2289384D80037F07C /* AdobeBlank.woff in Resources */,
+				C35FC76F289384D80037F07C /* Galmuri11.woff2 in Resources */,
+				C35FC7A3289384D80037F07C /* g7.fea in Resources */,
+				C35FC7B3289384D80037F07C /* bg.png in Resources */,
+				C35FC7BA289384D80037F07C /* Galmuri11-Bold.kbits in Resources */,
+				C35FC7B4289384D80037F07C /* toss.gif in Resources */,
+				C35FC780289384D80037F07C /* Galmuri11-Condensed.woff2 in Resources */,
+				C35FC772289384D80037F07C /* galmuri.css in Resources */,
+				C35FC774289384D80037F07C /* Galmuri11-Bold.bdf in Resources */,
+				C35FC784289384D80037F07C /* en.html in Resources */,
+				C35FC76D289384D80037F07C /* .npmignore in Resources */,
 				C3268B482890DD7900C4D6E5 /* LaunchScreen.storyboard in Resources */,
+				C35FC794289384D80037F07C /* g11b.ini in Resources */,
+				C35FC7B5289384D80037F07C /* OFL.md in Resources */,
+				C35FC7AC289384D80037F07C /* 220507.png in Resources */,
+				C35FC77D289384D80037F07C /* Galmuri11-Condensed.ttf in Resources */,
+				C35FC7B9289384D80037F07C /* Galmuri7.kbits in Resources */,
+				C35FC795289384D80037F07C /* g11c.ini in Resources */,
+				C35FC7A9289384D80037F07C /* 210105.jpg in Resources */,
+				C35FC7BB289384D80037F07C /* Galmuri9.kbits in Resources */,
+				C35FC781289384D80037F07C /* CNAME in Resources */,
+				C35FC7BC289384D80037F07C /* Galmuri11-Condensed.kbits in Resources */,
+				C35FC78B289384D80037F07C /* dependabot.yml in Resources */,
+				C35FC7AE289384D80037F07C /* 210223.jpg in Resources */,
+				C35FC787289384D80037F07C /* package.json in Resources */,
+				C35FC788289384D80037F07C /* OFL-ko.md in Resources */,
+				C35FC776289384D80037F07C /* Galmuri7.ttf in Resources */,
+				C35FC7A4289384D80037F07C /* kakaopay.svg in Resources */,
+				C35FC7B2289384D80037F07C /* donate.png in Resources */,
+				C35FC7AA289384D80037F07C /* 201221.jpg in Resources */,
+				C35FC7A5289384D80037F07C /* style.css in Resources */,
+				C35FC797289384D80037F07C /* g9.fea in Resources */,
+				C35FC79E289384D80037F07C /* q.svg in Resources */,
+				C35FC78C289384D80037F07C /* bitmap.ff in Resources */,
+				C35FC77B289384D80037F07C /* Galmuri11.bdf in Resources */,
+				C35FC786289384D80037F07C /* package-lock.json in Resources */,
+				C35FC783289384D80037F07C /* README.md in Resources */,
 				C3268B542890E4CE00C4D6E5 /* ListTableViewCell.xib in Resources */,
+				C35FC7B0289384D80037F07C /* 220621.jpg in Resources */,
+				C35FC7A1289384D80037F07C /* g7.ini in Resources */,
+				C35FC779289384D80037F07C /* Galmuri7.bdf in Resources */,
+				C35FC77A289384D80037F07C /* Galmuri9.ttf in Resources */,
+				C35FC7A8289384D80037F07C /* sandoll.png in Resources */,
+				C35FC791289384D80037F07C /* noonnu.png in Resources */,
+				C35FC782289384D80037F07C /* .gitmodules in Resources */,
+				C35FC79C289384D80037F07C /* galmuri.svg in Resources */,
+				C35FC77F289384D80037F07C /* LICENSE.txt in Resources */,
+				C35FC7B8289384D80037F07C /* Galmuri11.kbits in Resources */,
+				C35FC775289384D80037F07C /* Galmuri11.ttf in Resources */,
+				C35FC79B289384D80037F07C /* fontforge.ff in Resources */,
+				C35FC77C289384D80037F07C /* Galmuri11-Bold.woff2 in Resources */,
+				C35FC789289384D80037F07C /* FUNDING.yml in Resources */,
+				C35FC7A6289384D80037F07C /* cover.png in Resources */,
+				C35FC78F289384D80037F07C /* g11b.fea in Resources */,
+				C35FC7B7289384D80037F07C /* sponsors.md in Resources */,
+				C35FC76E289384D80037F07C /* index.html in Resources */,
 				C3268B452890DD7900C4D6E5 /* Assets.xcassets in Resources */,
+				C35FC7A0289384D80037F07C /* cover_dark.png in Resources */,
+				C35FC79A289384D80037F07C /* bdf.js in Resources */,
+				C35FC7AD289384D80037F07C /* 200223.png in Resources */,
+				C35FC7A7289384D80037F07C /* bgs.png in Resources */,
+				C35FC79F289384D80037F07C /* FontMenuNameDB in Resources */,
 				C3268B432890DD7800C4D6E5 /* Main.storyboard in Resources */,
+				C35FC78D289384D80037F07C /* toss.svg in Resources */,
+				C35FC790289384D80037F07C /* g11c.fea in Resources */,
+				C35FC778289384D80037F07C /* Galmuri11-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +619,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F1312228975FA400D7B0F7 /* UserDefaultsHelper.swift in Sources */,
 				C37157732892236D007C91A2 /* RottoViewController.swift in Sources */,
+				C35FC71128935F480037F07C /* NotificationViewController.swift in Sources */,
 				C371577728923A9B007C91A2 /* WebViewController.swift in Sources */,
 				C3268B402890DD7800C4D6E5 /* ViewController.swift in Sources */,
 				C3268B3C2890DD7800C4D6E5 /* AppDelegate.swift in Sources */,
+				C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */,
 				C3268B502890E1FA00C4D6E5 /* SearchViewController.swift in Sources */,
+				C35FC70F28935D710037F07C /* LocationViewController.swift in Sources */,
+				C3F13120289757AA00D7B0F7 /* Cosntant.swift in Sources */,
 				C3268B3E2890DD7800C4D6E5 /* SceneDelegate.swift in Sources */,
 				C37157752892305B007C91A2 /* TranslateViewController.swift in Sources */,
 				C371577128920CD7007C91A2 /* ViewPresentableProtocol.swift in Sources */,
@@ -402,6 +850,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3F1312328977CE500D7B0F7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C3F1312628977CFB00D7B0F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3F1312428977CE500D7B0F7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3F1312328977CE500D7B0F7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C3F1312728977CFB00D7B0F7 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3F1312628977CFB00D7B0F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3268B302890DD7800C4D6E5 /* Project object */;
 }
