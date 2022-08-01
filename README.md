@@ -1,4 +1,4 @@
-# LottoViewController ( 22.08.01 추가 )
+# BeerViewController & LottoViewController ( 22.08.01 추가 )
 
 ### NetWorkBasicProject - BeerViewController.swift
 
