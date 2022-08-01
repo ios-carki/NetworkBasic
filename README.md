@@ -1,3 +1,10 @@
+# LottoViewController ( 22.08.01 추가 )
+
+### NetWorkBasicProject - LottoViewController.swift
+
+<img width="923" alt="스크린샷 2022-08-01 오후 7 35 41" src="https://user-images.githubusercontent.com/44957712/182130428-f8932a5a-c30a-439d-8714-d470ace089f0.png">
+
+
 # WebViewController
 
 
