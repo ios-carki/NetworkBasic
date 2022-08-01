@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e4F-tW-nD6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lFc-LI-V9O">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -47,6 +47,80 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-910.14492753623199" y="71.651785714285708"/>
+        </scene>
+        <!--Beer View Controller-->
+        <scene sceneID="vMz-Dq-chn">
+            <objects>
+                <viewController id="lFc-LI-V9O" customClass="BeerViewController" customModule="NetworkBasic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NIR-zd-U8K">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Qu-TB-Otb">
+                                <rect key="frame" x="40" y="84" width="334" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="x5G-rY-Eno"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XdI-G6-utQ">
+                                <rect key="frame" x="40" y="154" width="334" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="nJ2-Cj-fD0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDT-zh-rXJ">
+                                <rect key="frame" x="80" y="714" width="254" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Cu3-pl-EH6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="lFc-LI-V9O" eventType="touchUpInside" id="9vz-3m-ZVi"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9zm-zh-qLu">
+                                <rect key="frame" x="40" y="494" width="334" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="uUP-KO-qxP"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PDJ-LD-w9A"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PDJ-LD-w9A" firstAttribute="trailing" secondItem="XdI-G6-utQ" secondAttribute="trailing" constant="40" id="1qc-n7-6yi"/>
+                            <constraint firstItem="9zm-zh-qLu" firstAttribute="leading" secondItem="PDJ-LD-w9A" secondAttribute="leading" constant="40" id="8Mx-9q-lL1"/>
+                            <constraint firstItem="9zm-zh-qLu" firstAttribute="top" secondItem="XdI-G6-utQ" secondAttribute="bottom" constant="40" id="BGY-PE-MrA"/>
+                            <constraint firstItem="6Qu-TB-Otb" firstAttribute="leading" secondItem="PDJ-LD-w9A" secondAttribute="leading" constant="40" id="CMd-Op-td4"/>
+                            <constraint firstItem="PDJ-LD-w9A" firstAttribute="trailing" secondItem="YDT-zh-rXJ" secondAttribute="trailing" constant="80" id="CcA-gq-d1R"/>
+                            <constraint firstItem="6Qu-TB-Otb" firstAttribute="top" secondItem="PDJ-LD-w9A" secondAttribute="top" constant="40" id="MKQ-KB-pgs"/>
+                            <constraint firstItem="PDJ-LD-w9A" firstAttribute="trailing" secondItem="9zm-zh-qLu" secondAttribute="trailing" constant="40" id="Q61-BO-SMk"/>
+                            <constraint firstItem="PDJ-LD-w9A" firstAttribute="trailing" secondItem="6Qu-TB-Otb" secondAttribute="trailing" constant="40" id="SQV-tu-Z8k"/>
+                            <constraint firstItem="XdI-G6-utQ" firstAttribute="leading" secondItem="PDJ-LD-w9A" secondAttribute="leading" constant="40" id="UJp-OY-qJn"/>
+                            <constraint firstItem="YDT-zh-rXJ" firstAttribute="top" secondItem="9zm-zh-qLu" secondAttribute="bottom" constant="20" id="WU5-eu-M5a"/>
+                            <constraint firstItem="YDT-zh-rXJ" firstAttribute="leading" secondItem="PDJ-LD-w9A" secondAttribute="leading" constant="80" id="fY4-Rz-jzV"/>
+                            <constraint firstItem="XdI-G6-utQ" firstAttribute="top" secondItem="6Qu-TB-Otb" secondAttribute="bottom" constant="40" id="j6W-hJ-XCU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beerDescriptionTextView" destination="9zm-zh-qLu" id="BQB-WZ-7vp"/>
+                        <outlet property="beerImageView" destination="XdI-G6-utQ" id="BOo-m3-PCI"/>
+                        <outlet property="beerNameLabel" destination="6Qu-TB-Otb" id="cen-GT-9dG"/>
+                        <outlet property="randButton" destination="YDT-zh-rXJ" id="eoU-He-uWz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxp-wn-Yed" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-873.91304347826099" y="763.39285714285711"/>
         </scene>
         <!--Rotto View Controller-->
         <scene sceneID="mlj-7z-fdd">
