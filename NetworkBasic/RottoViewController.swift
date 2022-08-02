@@ -63,6 +63,12 @@ class RottoViewController: UIViewController {
     func requestLotto(number: Int) {
         //AF: 200 ~ 299 status code -> 알라모파이어에서 디폴트 성공 상태코드 / statuscode를 301까지를 성공코드로 해달라라는 요청이 들어올때는 validate를 통해서 바꾼다 .statuscode
         let url = "\(EndPoint.lottoURL)&drwNo=\(number)"
+        let nowDate = Date()
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let strNowDate = dateFormatter.string(from: nowDate)
+        
         
         //validate - 유효성 검사
         AF.request(url, method: .get).validate(statusCode: 200..<400).responseJSON { response in
@@ -92,6 +98,7 @@ class RottoViewController: UIViewController {
                 self.lottoNumberCollectionLabel[6].text = bonusNum
                 
                 self.numberTextField.text = "\(date) (\(lottoDate)회차)"
+                
                 
                 
             case .failure(let error):

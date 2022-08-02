@@ -45,7 +45,6 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
         searchTableView.delegate = self
         searchTableView.dataSource = self
         
-        view.backgroundColor = .gray
         searchTableView.backgroundColor = .clear
 
         //연결고리 작업: 테이블뷰가 해야 할 역할 > 뷰 컨트롤러에게 요청
@@ -56,7 +55,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
         searchTableView.register(UINib(nibName: ListTableViewCell.reuseIdentifier, bundle: nil), forCellReuseIdentifier: ListTableViewCell.reuseIdentifier)
         
         searchBar.delegate = self
-        requestBoxOffice(text: "20220801")
+        requestBoxOffice()
     }
     
     func configureView() {
@@ -69,11 +68,23 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
 //        <#code#>
 //    }
     
-    func requestBoxOffice(text: String) {
+    func requestBoxOffice() {
         list.removeAll()
-        //인증키 제한
-        let url = "\(EndPoint.boxOfficeURL)key=\(APIKey.BOXOFFICE)&targetDt=\(text)"
+        let calendar = Calendar.current
+        let nowDate = Date() //오늘날짜
+
+        //데이트포멧
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyyMMdd"
         
+        let strNowDate = dateFormatter.string(from: nowDate) //nowDate를 문자열로 변환
+        let date = dateFormatter.date(from: strNowDate) //문자열 타입의 오늘날짜
+        let yesterday = calendar.date(byAdding: .day, value: -1, to: date!) //어제날짜
+        let strYesterday = dateFormatter.string(from: yesterday!) //문자열 타입의 어제날짜
+        
+        //targetDt에 "yyyyDDmm"데이트포멧 형식의 문자열 strYesterday 대입
+        let url = "\(EndPoint.boxOfficeURL)key=\(APIKey.BOXOFFICE)&targetDt=\(strYesterday)"
+
         //validate - 유효성 검사
         AF.request(url, method: .get).validate(statusCode: 200..<400).responseJSON { response in
             switch response.result {
@@ -94,7 +105,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
                 }
                 
                 print(self.list)
-                
+                print(strYesterday)
                 self.searchTableView.reloadData()
                 
                 
@@ -128,7 +139,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
 extension SearchViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        requestBoxOffice(text: searchBar.text!) //옵셔널 바인딩, 8글자, 숫자, 날짜로 변경 시 유효한 형태의 값인지 등
+        requestBoxOffice() //옵셔널 바인딩, 8글자, 숫자, 날짜로 변경 시 유효한 형태의 값인지 등
         
     }
 }
