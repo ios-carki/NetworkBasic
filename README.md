@@ -1,4 +1,12 @@
-# TranslateViewController ( 22.08.02 추가 )
+# TranslateViewController & MovieSearchViewController( 22.08.02 추가 )
+
+### NetWorkBasicProject - SearchViewController.swift
+
+<img width="300" alt="스크린샷 2022-08-02 오후 7 46 55" src="https://user-images.githubusercontent.com/44957712/182356830-d1aaad92-fbcb-40dd-b8a0-c79d74e9407b.png">
+
+핵심코드
+
+<img width="628" alt="스크린샷 2022-08-02 오후 7 40 22" src="https://user-images.githubusercontent.com/44957712/182356669-606fc4f8-1e26-4543-acf1-22ed3bb30687.png">
 
 ### NetWorkBasicProject - TranslateViewController.swift
 
