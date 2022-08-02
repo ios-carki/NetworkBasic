@@ -6,6 +6,10 @@
 //
 
 import UIKit
+
+import Alamofire
+import SwiftyJSON
+
 //UIButton, UITextField > Action
 //UITextView, UISearchBar, UIPickerView > 액션연결 안됨 -> 컨트롤 기반이 아님
 //UIControl
@@ -16,6 +20,7 @@ import UIKit
 class TranslateViewController: UIViewController {
 
     @IBOutlet weak var userInputTextView: UITextView!
+    @IBOutlet weak var translatedText: UITextView!
     
     let textViewPlaceholderText = "번역하고 싶은 문장을 작성해보세요."
     
@@ -32,8 +37,50 @@ class TranslateViewController: UIViewController {
         //폰트 적용 폰트 적용 폰트 적용 폰트 적용 폰트 적용 폰트 적용 폰트 적용
         userInputTextView.font = UIFont(name: "Galmuri11-Regular", size: 17)
         
+//        requestTranslatedData()
+        
+    }
+    
+    func requestTranslatedData(text: String) {
+        let url = EndPoint.translateURL
+        
+        let parameter = ["source": "ko", "target": "en", "text": text]
+        
+        let header: HTTPHeaders = ["X-Naver-Client-Id": APIKey.NAVER_ID, "X-Naver-Client-Secret": APIKey.NAVER_SECRET]
+        
+        //validate - 유효성 검사
+        AF.request(url, method: .post, parameters: parameter, headers: header).validate(statusCode: 200..<500).responseJSON { response in
+            switch response.result {
+            case .success(let value):
+                let json = JSON(value)
+                print("JSON: \(json)")
+                
+                let statusCode = response.response?.statusCode ?? 500
+                
+                let translatedResult = json["message"]["result"]["translatedText"].stringValue
+                self.translatedText.text = translatedResult
+                
+                
+                
+                if statusCode == 200 {
+                    
+                } else {
+                    self.userInputTextView.text = json["errorMessage"].stringValue
+                }
+               // translatedText.text = json["message"]["result"]["translatedText"]
+                
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+    
+    @IBAction func translateButtonClicked(_ sender: UIButton) {
+        let text: String = userInputTextView.text
+        requestTranslatedData(text: text)
     }
 }
+
 
 extension TranslateViewController: UITextViewDelegate {
     //텍스트의 글자가 변할때마다 호출(400/500 글자 수)

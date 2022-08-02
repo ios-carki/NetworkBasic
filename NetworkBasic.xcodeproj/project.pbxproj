@@ -102,6 +102,7 @@
 		C37157732892236D007C91A2 /* RottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157722892236D007C91A2 /* RottoViewController.swift */; };
 		C37157752892305B007C91A2 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157742892305B007C91A2 /* TranslateViewController.swift */; };
 		C371577728923A9B007C91A2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371577628923A9B007C91A2 /* WebViewController.swift */; };
+		C377DD7C2898BD2A005C6CD0 /* BoxOfficeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377DD7B2898BD2A005C6CD0 /* BoxOfficeModel.swift */; };
 		C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */; };
 		C3F13120289757AA00D7B0F7 /* Cosntant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311F289757AA00D7B0F7 /* Cosntant.swift */; };
 		C3F1312228975FA400D7B0F7 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */; };
@@ -209,6 +210,7 @@
 		C37157722892236D007C91A2 /* RottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottoViewController.swift; sourceTree = "<group>"; };
 		C37157742892305B007C91A2 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		C371577628923A9B007C91A2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C377DD7B2898BD2A005C6CD0 /* BoxOfficeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeModel.swift; sourceTree = "<group>"; };
 		C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
 		C3F1311F289757AA00D7B0F7 /* Cosntant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosntant.swift; sourceTree = "<group>"; };
 		C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				C3268B512890E4CE00C4D6E5 /* ListTableViewCell.swift */,
 				C3268B522890E4CE00C4D6E5 /* ListTableViewCell.xib */,
 				C3268B4F2890E1FA00C4D6E5 /* SearchViewController.swift */,
+				C377DD7B2898BD2A005C6CD0 /* BoxOfficeModel.swift */,
 				C3268B442890DD7900C4D6E5 /* Assets.xcassets */,
 				C3268B462890DD7900C4D6E5 /* LaunchScreen.storyboard */,
 				C3268B492890DD7900C4D6E5 /* Info.plist */,
@@ -639,6 +642,7 @@
 				C35FC71128935F480037F07C /* NotificationViewController.swift in Sources */,
 				C371577728923A9B007C91A2 /* WebViewController.swift in Sources */,
 				C3268B402890DD7800C4D6E5 /* ViewController.swift in Sources */,
+				C377DD7C2898BD2A005C6CD0 /* BoxOfficeModel.swift in Sources */,
 				C3F5EB392897E5880019B26B /* BeerViewController.swift in Sources */,
 				C3268B3C2890DD7800C4D6E5 /* AppDelegate.swift in Sources */,
 				C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */,

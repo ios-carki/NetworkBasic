@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lFc-LI-V9O">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cHV-po-c2J">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="86S-y6-IfV">
-                                <rect key="frame" x="40" y="88" width="374" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="5j1-vs-HwQ">
@@ -37,10 +37,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="86S-y6-IfV" secondAttribute="bottom" id="ajm-I6-oP9"/>
                             <constraint firstItem="5j1-vs-HwQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c6G-kX-ehI"/>
                             <constraint firstItem="5j1-vs-HwQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gvy-az-QCr"/>
-                            <constraint firstItem="86S-y6-IfV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="mM3-E5-JXx"/>
+                            <constraint firstItem="86S-y6-IfV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mM3-E5-JXx"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="searchBar" destination="5j1-vs-HwQ" id="Kj3-uo-ltk"/>
                         <outlet property="searchTableView" destination="86S-y6-IfV" id="tMU-bZ-SFH"/>
                     </connections>
                 </viewController>
@@ -266,25 +267,43 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-Iv-efd">
-                                <rect key="frame" x="87" y="447" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-Iv-efd">
+                                <rect key="frame" x="40" y="474" width="334" height="348"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gi8-nQ-MVY">
+                                <rect key="frame" x="80" y="354" width="254" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8zI-9c-NBf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="translateButtonClicked:" destination="cHV-po-c2J" eventType="touchUpInside" id="U9L-6c-Hds"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="B7P-Lg-gcu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hbT-lZ-v2y" firstAttribute="top" secondItem="B7P-Lg-gcu" secondAttribute="top" constant="50" id="NPw-N6-Hk3"/>
+                            <constraint firstItem="Gi8-nQ-MVY" firstAttribute="leading" secondItem="B7P-Lg-gcu" secondAttribute="leading" constant="80" id="U9G-do-Wq8"/>
+                            <constraint firstItem="Gi8-nQ-MVY" firstAttribute="top" secondItem="hbT-lZ-v2y" secondAttribute="bottom" constant="60" id="auv-fw-Vko"/>
                             <constraint firstItem="B7P-Lg-gcu" firstAttribute="trailing" secondItem="hbT-lZ-v2y" secondAttribute="trailing" constant="20" id="bA3-uy-l2y"/>
+                            <constraint firstItem="B7P-Lg-gcu" firstAttribute="bottom" secondItem="Ghg-Iv-efd" secondAttribute="bottom" constant="40" id="fLr-fz-iGR"/>
+                            <constraint firstItem="B7P-Lg-gcu" firstAttribute="trailing" secondItem="Gi8-nQ-MVY" secondAttribute="trailing" constant="80" id="lZV-qL-L2j"/>
                             <constraint firstItem="hbT-lZ-v2y" firstAttribute="leading" secondItem="B7P-Lg-gcu" secondAttribute="leading" constant="20" id="oOw-86-6un"/>
+                            <constraint firstItem="Ghg-Iv-efd" firstAttribute="leading" secondItem="B7P-Lg-gcu" secondAttribute="leading" constant="40" id="pMp-WJ-4GN"/>
+                            <constraint firstItem="B7P-Lg-gcu" firstAttribute="trailing" secondItem="Ghg-Iv-efd" secondAttribute="trailing" constant="40" id="ruU-nS-NlJ"/>
+                            <constraint firstItem="Ghg-Iv-efd" firstAttribute="top" secondItem="Gi8-nQ-MVY" secondAttribute="bottom" constant="80" id="zJw-Sh-weo"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="translatedText" destination="Ghg-Iv-efd" id="Tfx-Uz-mAY"/>
                         <outlet property="userInputTextView" destination="hbT-lZ-v2y" id="xjc-nm-sfe"/>
                     </connections>
                 </viewController>

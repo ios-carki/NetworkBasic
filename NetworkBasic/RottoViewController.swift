@@ -62,7 +62,7 @@ class RottoViewController: UIViewController {
     //알라모 파이어 설정
     func requestLotto(number: Int) {
         //AF: 200 ~ 299 status code -> 알라모파이어에서 디폴트 성공 상태코드 / statuscode를 301까지를 성공코드로 해달라라는 요청이 들어올때는 validate를 통해서 바꾼다 .statuscode
-        let url = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=\(number)"
+        let url = "\(EndPoint.lottoURL)&drwNo=\(number)"
         
         //validate - 유효성 검사
         AF.request(url, method: .get).validate(statusCode: 200..<400).responseJSON { response in
