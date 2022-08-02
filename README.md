@@ -1,3 +1,9 @@
+# TranslateViewController ( 22.08.02 추가 )
+
+### NetWorkBasicProject - TranslateViewController.swift
+
+<img width="435" alt="스크린샷 2022-08-02 오후 4 39 36" src="https://user-images.githubusercontent.com/44957712/182320047-3f481eed-9311-4295-b618-cd47aa5ce6e1.png">
+
 # BeerViewController & LottoViewController ( 22.08.01 추가 )
 
 ### NetWorkBasicProject - BeerViewController.swift
