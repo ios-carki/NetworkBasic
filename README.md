@@ -1,3 +1,14 @@
+# BeerViewController ( 22.11.01 추가)
+
+<img width="300" alt="스크린샷 2022-11-01 오후 6 28 11" src="https://user-images.githubusercontent.com/44957712/199203044-a7bdfd64-f429-4ed5-9861-f0d8bc0133a0.png">
+
+
+- ### initCommit: StoryBoard -> CodeBase UI(SnapKit)
+- ### initCommit: noneArchitecture -> MVC
+- ### NextCommit: MVC -> MVVM
+
+##
+
 # TranslateViewController & MovieSearchViewController( 22.08.02 추가 )
 
 ### NetWorkBasicProject - SearchViewController.swift
