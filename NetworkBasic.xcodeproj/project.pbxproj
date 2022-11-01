@@ -111,7 +111,7 @@
 		C3D57CFF2911183B00FD847E /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57CFE2911183B00FD847E /* BeerViewModel.swift */; };
 		C3D57D022911192D00FD847E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3D57D012911192D00FD847E /* SnapKit */; };
 		C3D57D0529112E4700FD847E /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C3D57D0429112E4700FD847E /* RxAlamofire */; };
-		C3D57D0729112F3F00FD847E /* SearchBeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57D0629112F3F00FD847E /* SearchBeer.swift */; };
+		C3D57D0929115DC900FD847E /* SearchBeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57D0829115DC900FD847E /* SearchBeer.swift */; };
 		C3DCBA8C289B506900989A4E /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C3DCBA8B289B506900989A4E /* JGProgressHUD */; };
 		C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */; };
 		C3F13120289757AA00D7B0F7 /* Cosntant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311F289757AA00D7B0F7 /* Cosntant.swift */; };
@@ -227,7 +227,7 @@
 		C3D57CF8291117FA00FD847E /* BeerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMainView.swift; sourceTree = "<group>"; };
 		C3D57CFC2911180D00FD847E /* BeerObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerObservable.swift; sourceTree = "<group>"; };
 		C3D57CFE2911183B00FD847E /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
-		C3D57D0629112F3F00FD847E /* SearchBeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBeer.swift; sourceTree = "<group>"; };
+		C3D57D0829115DC900FD847E /* SearchBeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBeer.swift; sourceTree = "<group>"; };
 		C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
 		C3F1311F289757AA00D7B0F7 /* Cosntant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosntant.swift; sourceTree = "<group>"; };
 		C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
@@ -496,7 +496,7 @@
 				C3D57CF8291117FA00FD847E /* BeerMainView.swift */,
 				C3D57CFC2911180D00FD847E /* BeerObservable.swift */,
 				C3D57CFE2911183B00FD847E /* BeerViewModel.swift */,
-				C3D57D0629112F3F00FD847E /* SearchBeer.swift */,
+				C3D57D0829115DC900FD847E /* SearchBeer.swift */,
 			);
 			path = BeerMVVM;
 			sourceTree = "<group>";
@@ -692,7 +692,7 @@
 				C35FC71128935F480037F07C /* NotificationViewController.swift in Sources */,
 				C371577728923A9B007C91A2 /* WebViewController.swift in Sources */,
 				C3268B402890DD7800C4D6E5 /* ViewController.swift in Sources */,
-				C3D57D0729112F3F00FD847E /* SearchBeer.swift in Sources */,
+				C3D57D0929115DC900FD847E /* SearchBeer.swift in Sources */,
 				C377DD7C2898BD2A005C6CD0 /* BoxOfficeModel.swift in Sources */,
 				C3378CD8289A094000E77DAA /* ImageSearchViewController.swift in Sources */,
 				C3D57CF7291117E000FD847E /* BeerMainViewController.swift in Sources */,
