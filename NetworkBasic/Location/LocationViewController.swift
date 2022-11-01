@@ -13,6 +13,7 @@ class LocationViewController: UIViewController {
     //LocationViewController.self 메타타입 = > "LocationViewController"
     
     
+    @IBOutlet weak var imageView: UIImageView!
     //Notification1
     let notificationCenter = UNUserNotificationCenter.current()
 
@@ -35,6 +36,26 @@ class LocationViewController: UIViewController {
         requestAuthorization()
         
     }
+    
+    @IBAction func downloadImage(_ sender: UIButton) {
+        
+        let url = "https://apod.nasa.gov/apod/image/2208/M13_final2_sinfirma.jpg"
+        print("1", Thread.isMainThread)
+        
+        DispatchQueue.global().async { //동시에 여러 작업 가능하게 해줘!
+            print("2", Thread.isMainThread)
+            let data = try! Data(contentsOf: URL(string: url)!)
+            let image = UIImage(data: data)
+            
+            DispatchQueue.main.async {
+                print("3", Thread.isMainThread)
+                self.imageView.image = image
+            }
+        }
+        
+        
+    }
+    
     
     @IBAction func notificationButtonClicked(_ sender: UIButton) {
         sendNotification()

@@ -8,6 +8,7 @@
 import UIKit
 
 import Alamofire
+import JGProgressHUD
 import SwiftyJSON
 
 /*
@@ -40,6 +41,14 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
     //BoxOffice 배열
     var list: [BoxOfficeModel] = []
     
+    //ProgressView
+    let hud = JGProgressHUD()
+    
+    //타입 어노테이션 VS 타입 추론 => 누가 더 속도가 빠를까
+    //What's new in Swift
+//    var nickname: String = ""
+//    var username = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         searchTableView.delegate = self
@@ -55,6 +64,26 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
         searchTableView.register(UINib(nibName: ListTableViewCell.reuseIdentifier, bundle: nil), forCellReuseIdentifier: ListTableViewCell.reuseIdentifier)
         
         searchBar.delegate = self
+        
+        //==========================================================================================
+        //날짜 계산하기 방법
+        //1. 어제기준 timeinterval 이용
+//        let format = DateFormatter()
+//        format.dateFormat = "yyyyMMdd" // TMI -> ""yyyyMMdd" "YYYYMMdd" -> 20221231 (찾아보기)
+//        let dateResult = Date(timeIntervalSinceNow: -86400)
+        
+        //2. Date DateFormatter Calendar 이용
+//        let format = DateFormatter()
+//        format.dateFormat = "yyyyMMdd"
+//        let yesterday = Calendar.current.date(byAdding: .day, value: -1, to: Date())
+//        let dateResult = format.string(from: yesterday!)
+        
+        // 네트워크 통신: 서버 점검 등에 대한 예외 처리
+        // 네트워크가 느린 환경 테스트:
+        // 실기기 테스트 시 Condition 조절 가능!
+        // 시뮬레이터에서도 가능! (추가 설치) -> Window -> Devices and Simulators -> 디바이스 연결 후 오른쪽 밑에
+        //==========================================================================================
+        
         requestBoxOffice()
     }
     
@@ -69,7 +98,10 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
 //    }
     
     func requestBoxOffice() {
+        
+        hud.show(in: view)
         list.removeAll()
+        
         let calendar = Calendar.current
         let nowDate = Date() //오늘날짜
 
@@ -86,7 +118,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
         let url = "\(EndPoint.boxOfficeURL)key=\(APIKey.BOXOFFICE)&targetDt=\(strYesterday)"
 
         //validate - 유효성 검사
-        AF.request(url, method: .get).validate(statusCode: 200..<400).responseJSON { response in
+        AF.request(url, method: .get).validate(statusCode: 200..<400).responseData { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
@@ -107,6 +139,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
                 print(self.list)
                 print(strYesterday)
                 self.searchTableView.reloadData()
+                self.hud.dismiss()
                 
                 
             case .failure(let error):

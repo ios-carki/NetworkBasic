@@ -7,6 +7,20 @@
 
 import Foundation
 
+struct APIKey {
+    static let BOXOFFICE = "2447b8fcd01f3c451e652506fd5950da"
+    static let NAVER_ID: String = "YE7cni9bubM_t_SRGx_s"
+    static let NAVER_SECRET: String = "gW_aaxnyaa"
+    
+}
+
+struct EndPoint {
+    static let lottoURL = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber"
+    static let boxOfficeURL = "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?"
+    static let translateURL = "https://openapi.naver.com/v1/papago/n2mt"
+    static let imageSearchURL = "https://openapi.naver.com/v1/search/image.json?"
+}
+
 //방법1. 열거형
 //enum StoryboardName: String {
 //    case Main

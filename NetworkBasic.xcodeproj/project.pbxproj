@@ -16,6 +16,8 @@
 		C3268B502890E1FA00C4D6E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3268B4F2890E1FA00C4D6E5 /* SearchViewController.swift */; };
 		C3268B532890E4CE00C4D6E5 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3268B512890E4CE00C4D6E5 /* ListTableViewCell.swift */; };
 		C3268B542890E4CE00C4D6E5 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3268B522890E4CE00C4D6E5 /* ListTableViewCell.xib */; };
+		C3378CD8289A094000E77DAA /* ImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3378CD7289A094000E77DAA /* ImageSearchViewController.swift */; };
+		C357ED3A289CB3F900F4BD8F /* ImageSearchAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357ED39289CB3F900F4BD8F /* ImageSearchAPIManager.swift */; };
 		C35FC70F28935D710037F07C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FC70E28935D710037F07C /* LocationViewController.swift */; };
 		C35FC71128935F480037F07C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FC71028935F480037F07C /* NotificationViewController.swift */; };
 		C35FC76D289384D80037F07C /* .npmignore in Resources */ = {isa = PBXBuildFile; fileRef = C35FC716289384D80037F07C /* .npmignore */; };
@@ -103,6 +105,12 @@
 		C37157752892305B007C91A2 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157742892305B007C91A2 /* TranslateViewController.swift */; };
 		C371577728923A9B007C91A2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371577628923A9B007C91A2 /* WebViewController.swift */; };
 		C377DD7C2898BD2A005C6CD0 /* BoxOfficeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377DD7B2898BD2A005C6CD0 /* BoxOfficeModel.swift */; };
+		C3D57CF7291117E000FD847E /* BeerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57CF6291117E000FD847E /* BeerMainViewController.swift */; };
+		C3D57CF9291117FA00FD847E /* BeerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57CF8291117FA00FD847E /* BeerMainView.swift */; };
+		C3D57CFD2911180D00FD847E /* BeerObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57CFC2911180D00FD847E /* BeerObservable.swift */; };
+		C3D57CFF2911183B00FD847E /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57CFE2911183B00FD847E /* BeerViewModel.swift */; };
+		C3D57D022911192D00FD847E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3D57D012911192D00FD847E /* SnapKit */; };
+		C3DCBA8C289B506900989A4E /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C3DCBA8B289B506900989A4E /* JGProgressHUD */; };
 		C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */; };
 		C3F13120289757AA00D7B0F7 /* Cosntant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1311F289757AA00D7B0F7 /* Cosntant.swift */; };
 		C3F1312228975FA400D7B0F7 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */; };
@@ -124,6 +132,8 @@
 		C3268B4F2890E1FA00C4D6E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C3268B512890E4CE00C4D6E5 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		C3268B522890E4CE00C4D6E5 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		C3378CD7289A094000E77DAA /* ImageSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewController.swift; sourceTree = "<group>"; };
+		C357ED39289CB3F900F4BD8F /* ImageSearchAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchAPIManager.swift; sourceTree = "<group>"; };
 		C35FC70E28935D710037F07C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		C35FC71028935F480037F07C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		C35FC716289384D80037F07C /* .npmignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .npmignore; sourceTree = "<group>"; };
@@ -211,6 +221,10 @@
 		C37157742892305B007C91A2 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		C371577628923A9B007C91A2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C377DD7B2898BD2A005C6CD0 /* BoxOfficeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeModel.swift; sourceTree = "<group>"; };
+		C3D57CF6291117E000FD847E /* BeerMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMainViewController.swift; sourceTree = "<group>"; };
+		C3D57CF8291117FA00FD847E /* BeerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMainView.swift; sourceTree = "<group>"; };
+		C3D57CFC2911180D00FD847E /* BeerObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerObservable.swift; sourceTree = "<group>"; };
+		C3D57CFE2911183B00FD847E /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
 		C3F1311C2897529300D7B0F7 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
 		C3F1311F289757AA00D7B0F7 /* Cosntant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosntant.swift; sourceTree = "<group>"; };
 		C3F1312128975FA400D7B0F7 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
@@ -222,9 +236,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DCBA8C289B506900989A4E /* JGProgressHUD in Frameworks */,
 				C3F5EB3C2898003A0019B26B /* Kingfisher in Frameworks */,
 				C3F1312828977CFB00D7B0F7 /* SwiftyJSON in Frameworks */,
 				C3F1312528977CE500D7B0F7 /* Alamofire in Frameworks */,
+				C3D57D022911192D00FD847E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +266,8 @@
 		C3268B3A2890DD7800C4D6E5 /* NetworkBasic */ = {
 			isa = PBXGroup;
 			children = (
+				C3D57CF5291117D000FD847E /* BeerMVVM */,
+				C357ED38289CB3D200F4BD8F /* APIManager */,
 				C3F5EB372897E4BC0019B26B /* BeerAPI */,
 				C3F1311E2897577D00D7B0F7 /* Cosntant */,
 				C35FC714289384000037F07C /* Resource */,
@@ -260,6 +278,7 @@
 				C3268B3D2890DD7800C4D6E5 /* SceneDelegate.swift */,
 				C3268B3F2890DD7800C4D6E5 /* ViewController.swift */,
 				C3268B412890DD7800C4D6E5 /* Main.storyboard */,
+				C3378CD7289A094000E77DAA /* ImageSearchViewController.swift */,
 				C371577828923AA0007C91A2 /* WebView */,
 				C37157742892305B007C91A2 /* TranslateViewController.swift */,
 				C37157722892236D007C91A2 /* RottoViewController.swift */,
@@ -272,6 +291,14 @@
 				C3268B492890DD7900C4D6E5 /* Info.plist */,
 			);
 			path = NetworkBasic;
+			sourceTree = "<group>";
+		};
+		C357ED38289CB3D200F4BD8F /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				C357ED39289CB3F900F4BD8F /* ImageSearchAPIManager.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 		C35FC71228935F540037F07C /* Notification */ = {
@@ -458,6 +485,17 @@
 			path = WebView;
 			sourceTree = "<group>";
 		};
+		C3D57CF5291117D000FD847E /* BeerMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C3D57CF6291117E000FD847E /* BeerMainViewController.swift */,
+				C3D57CF8291117FA00FD847E /* BeerMainView.swift */,
+				C3D57CFC2911180D00FD847E /* BeerObservable.swift */,
+				C3D57CFE2911183B00FD847E /* BeerViewModel.swift */,
+			);
+			path = BeerMVVM;
+			sourceTree = "<group>";
+		};
 		C3F1311E2897577D00D7B0F7 /* Cosntant */ = {
 			isa = PBXGroup;
 			children = (
@@ -495,6 +533,8 @@
 				C3F1312428977CE500D7B0F7 /* Alamofire */,
 				C3F1312728977CFB00D7B0F7 /* SwiftyJSON */,
 				C3F5EB3B2898003A0019B26B /* Kingfisher */,
+				C3DCBA8B289B506900989A4E /* JGProgressHUD */,
+				C3D57D012911192D00FD847E /* SnapKit */,
 			);
 			productName = NetworkBasic;
 			productReference = C3268B382890DD7800C4D6E5 /* NetworkBasic.app */;
@@ -528,6 +568,8 @@
 				C3F1312328977CE500D7B0F7 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				C3F1312628977CFB00D7B0F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				C3F5EB3A2898003A0019B26B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C3DCBA8A289B506900989A4E /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				C3D57D002911192D00FD847E /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = C3268B392890DD7800C4D6E5 /* Products */;
 			projectDirPath = "";
@@ -639,18 +681,24 @@
 			files = (
 				C3F1312228975FA400D7B0F7 /* UserDefaultsHelper.swift in Sources */,
 				C37157732892236D007C91A2 /* RottoViewController.swift in Sources */,
+				C3D57CFF2911183B00FD847E /* BeerViewModel.swift in Sources */,
 				C35FC71128935F480037F07C /* NotificationViewController.swift in Sources */,
 				C371577728923A9B007C91A2 /* WebViewController.swift in Sources */,
 				C3268B402890DD7800C4D6E5 /* ViewController.swift in Sources */,
 				C377DD7C2898BD2A005C6CD0 /* BoxOfficeModel.swift in Sources */,
+				C3378CD8289A094000E77DAA /* ImageSearchViewController.swift in Sources */,
+				C3D57CF7291117E000FD847E /* BeerMainViewController.swift in Sources */,
 				C3F5EB392897E5880019B26B /* BeerViewController.swift in Sources */,
 				C3268B3C2890DD7800C4D6E5 /* AppDelegate.swift in Sources */,
 				C3F1311D2897529300D7B0F7 /* ReusableViewProtocol.swift in Sources */,
+				C357ED3A289CB3F900F4BD8F /* ImageSearchAPIManager.swift in Sources */,
 				C3268B502890E1FA00C4D6E5 /* SearchViewController.swift in Sources */,
 				C35FC70F28935D710037F07C /* LocationViewController.swift in Sources */,
 				C3F13120289757AA00D7B0F7 /* Cosntant.swift in Sources */,
+				C3D57CF9291117FA00FD847E /* BeerMainView.swift in Sources */,
 				C3268B3E2890DD7800C4D6E5 /* SceneDelegate.swift in Sources */,
 				C37157752892305B007C91A2 /* TranslateViewController.swift in Sources */,
+				C3D57CFD2911180D00FD847E /* BeerObservable.swift in Sources */,
 				C371577128920CD7007C91A2 /* ViewPresentableProtocol.swift in Sources */,
 				C3268B532890E4CE00C4D6E5 /* ListTableViewCell.swift in Sources */,
 			);
@@ -872,6 +920,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C3D57D002911192D00FD847E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C3DCBA8A289B506900989A4E /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		C3F1312328977CE500D7B0F7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -899,6 +963,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C3D57D012911192D00FD847E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3D57D002911192D00FD847E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		C3DCBA8B289B506900989A4E /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DCBA8A289B506900989A4E /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
 		C3F1312428977CE500D7B0F7 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C3F1312328977CE500D7B0F7 /* XCRemoteSwiftPackageReference "Alamofire" */;
