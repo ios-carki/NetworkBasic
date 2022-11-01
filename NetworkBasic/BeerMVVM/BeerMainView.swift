@@ -15,6 +15,9 @@ class BeerMainView: UIView {
         let view = UILabel()
         view.textColor = .black
         view.text = "맥주이름"
+        view.textAlignment = .center
+        view.textColor = .orange
+        view.font = .systemFont(ofSize: 20)
         return view
     }()
     
